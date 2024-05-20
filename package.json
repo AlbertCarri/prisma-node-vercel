@@ -5,6 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "migrate": "npx prisma migrate deploy",
+    "generate": "npx prisma generate",
     "start": "node index.js"
   },
   "keywords": [],

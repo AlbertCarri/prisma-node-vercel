@@ -5,9 +5,6 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "postinstall": "prisma generate",
-    "migrate": "npx prisma migrate deploy",
-    "generate": "npx prisma generate",
     "start": "node index.js"
   },
   "keywords": [],

@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
-    "postinstall": "prisma generate"
+    "postinstall": "prisma generate",
+    "migrate": "npx prisma migrate deploy",
+    "generate": "npx prisma generate",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
